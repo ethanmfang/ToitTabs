@@ -1,0 +1,136 @@
+.App {
+  width: 400px;
+  height: auto;
+  max-height: 400px;
+}
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul {
+  background: #a3c9c9;
+  padding: 3px;
+  padding-inline-start: 0px;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+li {
+  background: #d3f7f2;
+  margin: 1px;
+  height: 28px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 448px;
+  text-overflow: clip;
+}
+.tab-text {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.favIcon img {
+  height: 20px;
+  width: 20px;
+  padding: 6px;
+}
+.filter-box {
+  margin: 2px;
+  height: 20px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+input {
+  width: 60%;
+  padding: 0px;
+  margin-left: 25px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  border-style: outset;
+  text-indent: 3px;
+}
+label {
+  padding: 5px;
+}
+.url-button {
+  height: 22px;
+  width: 50px;
+  font-size: x-small;
+  text-align: center;
+  margin: 0px 6% 0px 3%;
+  cursor: pointer;
+}
+.keyword-button {
+  height: 20px;
+  width: auto;
+  font-size: x-small;
+  text-align: center;
+  padding: 2px;
+  margin: 0px 3% 0px 6%;
+  cursor: pointer;
+}
+.tab-btn.tooltip {
+  background: #d3f7f2;
+  margin: 1px;
+  height: 25px;
+  width: 448px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: transparent;
+  outline: none;
+  box-sizing: content-box;
+  text-overflow: clip;
+  white-space: nowrap;
+}
+.tab-btn.tooltip:hover {
+  cursor: pointer;
+  background: #e9e9e9;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #555;
+  color: #fff;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+  position: absolute;
+  padding: 5px 0;
+  opacity: 0;
+  transition: 0.5s ease-in-out;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.title-bar {
+  background: #a3c9c9;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: transparent;
+  outline: none;
+}
+.title {
+  background: #d3f7f2;
+  position: relative;
+  margin-left: 65px;
+  padding: 2px;
+  align-items: flex-start;
+  font-weight: bolder;
+  visibility: hidden;
+}
+.create-btns {
+  background: #d3f7f2;
+  position: relative;
+  margin-left: 155px;
+  padding: 2px;
+  align-items: flex-end;
+}
