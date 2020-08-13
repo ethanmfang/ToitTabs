@@ -3,7 +3,6 @@ import NewWindowFromKeyword from "./NewWindowFromKeyword";
 import ToitTab from "./ToitTab";
 //import NewWindowFromUrl from "./NewWindowFromUrl";
 
-
 class ToitTabs extends Component {
   constructor(props) {
     super(props);
@@ -65,12 +64,7 @@ class ToitTabs extends Component {
 
     return (
       <div>
-        {/* <div className='title-bar'>
-          <div className='title'>ToitTabs</div>
-          <div className='create-btns'>create window by:</div>
-        </div> */}
         <div className="filter-box">
-          {/* <label>Keyword:</label> */}
           <input
             // eslint-disable-next-line jsx-a11y/no-autofocus
             autoFocus
@@ -80,7 +74,6 @@ class ToitTabs extends Component {
             onChange={this.changeHandler}
           />
           <NewWindowFromKeyword tabList={tabList} />
-          {/* <NewWindowFromUrl tabList={tabList} /> */}
         </div>
         <ul>{tabList}</ul>
       </div>
