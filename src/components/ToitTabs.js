@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import NewWindowFromKeyword from "./NewWindowFromKeyword";
 import ToitTab from "./ToitTab";
-//import NewWindowFromUrl from "./NewWindowFromUrl";
 
 class ToitTabs extends Component {
   constructor(props) {
@@ -51,7 +50,8 @@ class ToitTabs extends Component {
       .filter(
         (tab) =>
           filterInput === "" ||
-          tab.title.toLowerCase().includes(filterInput.toLowerCase())
+          tab.title.toLowerCase().includes(filterInput.toLowerCase()) ||
+          tab.url.toLowerCase().includes(filterInput.toLowerCase())
       )
       .map((tab) => (
         <ToitTab
