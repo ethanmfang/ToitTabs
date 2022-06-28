@@ -1,3 +1,5 @@
+See and install the extension here: https://chrome.google.com/webstore/detail/toittabs/cniomiggpahhineglikbdmcfbbkkeckc
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
